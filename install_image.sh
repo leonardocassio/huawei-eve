@@ -53,3 +53,8 @@ echo "
 #FIXANDO PERMISSÃO"
 
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+
+echo "
+#EXCLUINDO ARQUIVOS TEMPORÁRIOS"
+
+rm -r /tmp/huawei.zip
